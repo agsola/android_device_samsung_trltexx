@@ -11,9 +11,9 @@ vendor/firmware/bcm43569A1.hcd
 
 
 # GPS
-#-priv-app/com.qualcomm.location/com.qualcomm.location.apk
-#bin/gsiff_daemon
-#etc/permissions/com.qualcomm.location.xml
+-app/com.qualcomm.location.apk
+bin/gsiff_daemon
+etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
 lib/libloc_api_v02.so
 vendor/lib/libgeofence.so
@@ -35,7 +35,7 @@ vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
-# NOT FOUND vendor/lib/libqmi_csvt_srvc.so
+vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
