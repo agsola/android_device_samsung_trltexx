@@ -1,19 +1,14 @@
-# Bluetooth firmware
-vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd
-vendor/firmware/bcm43569.hcd
-vendor/firmware/bcm43569A0.hcd
-vendor/firmware/bcm43569A1.hcd
+# CMRemix is quite different now
 # NEW BLUETOOTH FOUND
 #vendor/firmware/bcm4358A0_V0033.0000.hcd
 #vendor/firmware/bcm4358A0_V0033.0000_wisol.hcd
 #vendor/firmware/bcm4358A1_V0054.0095.hcd
 #vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd
 
-
 # GPS
--app/com.qualcomm.location.apk
+#-app/com.qualcomm.location.apk
 bin/gsiff_daemon
-etc/permissions/com.qualcomm.location.xml
+#etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
 lib/libloc_api_v02.so
 vendor/lib/libgeofence.so
